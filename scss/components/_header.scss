@@ -29,6 +29,18 @@
 
     &__itm {
         font-size: max(1rem, 2.2vmax);
+
+        @include mobile-only(){
+            &{
+                font-size: 3rem;
+            }
+        }
+    }
+
+    &__itm-container {
+        display: flex;
+        gap: 2rem;
+        margin-right: 1rem;
     }
 
     &__menu {

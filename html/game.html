@@ -13,18 +13,15 @@
     <div class="body gradient">
         <header class="header">
             <h1 class="header__ttl">L'Hortensiade</h1>
-            <nav class="header__lst-container" aria-label="navigation principal">
-                <ul class="header__lst">
-                    <li class="header__itm"><a href="../index.html"><img class="header__logo"
-                                src="../assets/img/logo.svg" alt="logo L'Hortensiade"></a></li>
-                    <ul class="header__menu">
-                        <li class="header__itm"><a href="">Se connecter</a></li>
-                        <li class="header__itm"><a href="">S'inscrire</a></li>
-                    </ul>
-                    <ul class="menu-burger">
-                        <li class="menu-burger__itm"><a href="">Se connecter</a></li>
-                        <li class="menu-burger__itm"><a href="">S'inscrire</a></li>
-                    </ul>
+            <nav class="header__lst-container" aria-label="navigation principal" id="header-nav">
+                <ul class="header__lst" id="header-list">
+                    <li class="header__itm" id="logo"><img class="header__logo" src="../assets/img/logo.svg"
+                            alt="logo L'Hortensiade"></li>
+                    <div class="header__itm-container" id="burger-container">
+                        <li class="menu-burger" id="menu-burger"></li>
+                        <li class="header__itm menu-burger__itm js-menu-burger" id="header-conect"><a href="">Se connecter</a></li>
+                        <li class="header__itm menu-burger__itm js-menu-burger" id="header-register"><a href="">S'inscrire</a></li>
+                    </div>
                 </ul>
             </nav>
         </header>
