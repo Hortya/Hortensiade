@@ -1,0 +1,12 @@
+.gradient {
+    background: rgb(109,126,174);
+    background: linear-gradient(-45deg, $color-steel 0%, $color-space 100%); 
+}
+
+
+.ttl{
+    text-align: center;
+    font-size: max(1rem, 2.2vmax);
+    font-weight: normal;
+    padding-bottom: 8.2vh;
+}

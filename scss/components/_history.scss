@@ -1,0 +1,29 @@
+.history {
+    text-align: center;
+    font-size: max(1rem, 2.2vmax);
+    font-weight: normal;
+    margin: 2vh auto;
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40vh;
+    }
+
+    &__btn{
+        width: 75%;
+        height: 100%;
+        margin: 1rem auto;
+        background-color: $color-sun;
+        border: 5px solid $color-dark;
+        border-radius: 3rem;
+        font-size: max(1rem, 2.2vmax);
+
+        &:hover{
+            background-color: $color-grass;
+            color: $color-white;
+        }
+    }
+}
