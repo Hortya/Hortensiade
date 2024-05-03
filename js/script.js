@@ -47,12 +47,14 @@ function clickToUnrollStory(){
 function letTheStoryGoesOn (jsonStory){
     const story = document.importNode(document.getElementById('storyTemplate').content, true);
     story.getElementById('history').textContent = jsonStory[0].story;
-    
+    document.getElementById('playGround').appendChild(story);
     let i = 1;
+    const btnContainer = document.getElementById('history-container');
     jsonStory[0].choices.forEach(choice =>{
-        story.getElementById(`historyBtn${i}`).textContent = choice.txt;
-        story.getElementById(`historyBtn${i}`).dataset.id = choice.id;
+        const btn = document.importNode(document.getElementById('buttonTemplate').content, true);
+        btn.querySelector('.js-btn').textContent = choice.txt;
+        btn.querySelector('.js-btn').dataset.id = choice.id;
+        btnContainer.appendChild(btn);
         i++;
     })
-    document.getElementById('playGround').appendChild(story);
 }
