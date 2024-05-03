@@ -168,7 +168,7 @@ main {
 
 .history {
   text-align: center;
-  font-size: max(1rem, 2.2vmax);
+  font-size: max(1rem, 2vmax);
   font-weight: normal;
   margin: 2vh auto;
 }
@@ -178,6 +178,7 @@ main {
   align-items: center;
   justify-content: center;
   height: 40vh;
+  margin-top: 2rem;
 }
 .history__btn {
   width: 75%;
@@ -186,7 +187,7 @@ main {
   background-color: #DD8E61;
   border: 5px solid #000000;
   border-radius: 3rem;
-  font-size: max(1rem, 2.2vmax);
+  font-size: max(1rem, 2vmax);
 }
 .history__btn:hover {
   background-color: #434234;
