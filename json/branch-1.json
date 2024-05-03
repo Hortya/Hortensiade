@@ -1,0 +1,19 @@
+[
+    {
+        "story":"Vous avez clické sur le le bon bouton, bravo ! Maintenant clickez sur le deuxième bouton.",
+        "choices":[
+            {
+                "txt":"pas ici",
+                "id":"4"
+            },
+            {
+                "txt":"ici",
+                "id":"5"
+            },
+            {
+                "txt":"pas ici non plus",
+                "id":"6"
+            }
+        ]
+    }
+]
