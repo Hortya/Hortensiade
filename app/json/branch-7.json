@@ -1,0 +1,15 @@
+[
+    {
+        "story":"Maintenant que vous avez le livre en main, vous pouvez cliquer sur la graine (menu en haut à droite) pour voir votre inventaire et gérer les option du jeu.",
+        "choices":[
+            {
+                "txt":"J'ai lu le livre de règle et compris comment acceder au options",
+                "id":"11"
+            },
+            {
+                "txt":"Je brûle le livre de règle. J'ai pas envie de me faire dicter mon histoire par les règles abstraites de lae développeureuxse",
+                "id":"12"
+            }
+        ]
+    }
+]

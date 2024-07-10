@@ -1,0 +1,14 @@
+[
+    {
+        "story":"Félicitation ! Vous avez compris la mécanique principale du jeu. Vous avez gagné ce magnifique \"livre des règles du jeu\"",
+        "choices":[
+            {
+                "txt":"Vous prennez le livre en vous demandant ce qui vous attend pour la suite",
+                "id":"7"
+            }
+        ],
+        "object":{
+            "livre des règles du jeu":"true"
+        }
+    }
+]

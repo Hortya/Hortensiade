@@ -1,0 +1,15 @@
+[
+    {
+        "story":"Vous vous êtes trompé.e... Surement de la maladresse ! cliquez sur le second bouton !",
+        "choices":[
+            {
+                "txt":"pas ici",
+                "id":"6"
+            },
+            {
+                "txt":"ici",
+                "id":"5"
+            }
+        ]
+    }
+]

@@ -1,0 +1,15 @@
+[
+    {
+        "story":"Tu as décidé.e de ne pas m'écouter... Tu remets en cause mon autorité... ? Tu as raison !",
+        "choices":[
+            {
+                "txt":"ici",
+                "id":"1"
+            },
+            {
+                "txt":"pas ici",
+                "id":"10"
+            }
+        ]
+    }
+]

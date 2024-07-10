@@ -1,6 +1,6 @@
 [
     {
-        "story":"Vous avez clické sur le le bon bouton, bravo ! Maintenant clickez sur le deuxième bouton.",
+        "story":"Vous avez cliqué sur le bon bouton, bravo ! Maintenant cliquez sur le deuxième bouton.",
         "choices":[
             {
                 "txt":"pas ici",
@@ -12,7 +12,7 @@
             },
             {
                 "txt":"pas ici non plus",
-                "id":"6"
+                "id":"4"
             }
         ]
     }

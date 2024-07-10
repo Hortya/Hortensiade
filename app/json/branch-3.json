@@ -1,0 +1,15 @@
+[
+    {
+        "story":"Tu te crois malin.e ...?",
+        "choices":[
+            {
+                "txt":"Arrête les bétises et clique ici",
+                "id":"1"
+            },
+            {
+                "txt":"S'il te plait, ne clique pas ici pas ici",
+                "id":"9"
+            }
+        ]
+    }
+]

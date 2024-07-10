@@ -1,6 +1,6 @@
 [
     {
-        "story":"Bienvenue dans l'introduction de l'Hortensiade ! Pour jouer, c'est très simple ! Il vous suffit de clicker sur un des boutons pour faire avancer l'histoire. Votre première mission sera de clicker sur le premier boutton.",
+        "story":"Bienvenue dans l'introduction de l'Hortensiade ! Pour jouer, c'est très simple ! Il vous suffit de cliquer sur un des boutons pour faire avancer l'histoire. Votre première mission sera de clicker sur le premier boutton.",
         "choices":[
             {
                 "txt":"ici",
@@ -12,7 +12,7 @@
             },
             {
                 "txt":"pas ici non plus",
-                "id":"3"
+                "id":"2"
             }
         ]
     }

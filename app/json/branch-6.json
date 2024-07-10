@@ -1,0 +1,15 @@
+[
+    {
+        "story":"Vous vous êtes trompé.e... ça commence à faire beaucoup... Vous voulez jouer ? On va jouer !",
+        "choices":[
+            {
+                "txt":"cliquez ici",
+                "id":"5"
+            },
+            {
+                "txt":"ou ici",
+                "id":"5"
+            }
+        ]
+    }
+]

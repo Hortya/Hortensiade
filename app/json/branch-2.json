@@ -1,0 +1,15 @@
+[
+    {
+        "story":"Vous avez dû vous tromper, c'est pas grave ça arrive même au meilleur. Essayez d'appuyer sur le premier bouton.",
+        "choices":[
+            {
+                "txt":"ici",
+                "id":"1"
+            },
+            {
+                "txt":"pas ici",
+                "id":"3"
+            }
+        ]
+    }
+]
