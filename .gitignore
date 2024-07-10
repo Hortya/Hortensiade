@@ -1,2 +1,5 @@
-/css/
-/looping/
+app/css/
+app/looping/
+app/.env
+app/vendor
+app/node_modules

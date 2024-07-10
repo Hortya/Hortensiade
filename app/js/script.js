@@ -68,3 +68,24 @@ function saveObjectInLS(object){
         localStorage.setItem(object[0].object, )
     }
 }
+
+
+
+async function callAPI(method, params) {
+    try {
+        const response = await fetch("../php/api.php", {
+            method: method,
+            body: JSON.stringify(params),
+            headers: {
+                'Content-type': 'application/json'
+            }
+        });
+        const json = await response.json();
+        return json
+    }
+    catch(error) {
+        console.error("Unable to load todolist datas from the server : " + error);
+    }
+}
+
+callAPI('POST', {}).then(data => console.log(data));
