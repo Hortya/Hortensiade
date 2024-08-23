@@ -1,0 +1,30 @@
+:root {
+    font-size: $default-size;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: $color-dark;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    margin: 0 6vw;
+}

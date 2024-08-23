@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__ttl {
+        font-size: max(2rem, 3.75vmax);
+        width: 50%;
+        position: absolute;
+        text-align: center;
+        left: 25%;
+
+        &--second{
+            font-size: max(1.5rem, 3vmax);
+            top: max(4rem, 7.5vmax);
+        }
+    }
+ 
+    &__lst-container {
+        width: 100%;
+    }
+
+    &__lst {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__logo {
+        width: 10vmax;
+        aspect-ratio: 1/1;
+    }
+
+    &__itm {
+        font-size: max(1rem, 2.2vmax);
+
+        @include mobile-only(){
+            &{
+                font-size: 3rem;
+            }
+        }
+    }
+
+    &__itm-container {
+        display: flex;
+        gap: 2rem;
+        margin-right: 1rem;
+    }
+
+    &__menu {
+        display: flex;
+        gap: max(2rem, 0.5vmax);
+        
+        @include mobile-only() {
+            & {
+                display: none;
+            }
+        }
+    }
+}
